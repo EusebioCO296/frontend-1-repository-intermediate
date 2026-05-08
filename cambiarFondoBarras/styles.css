@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 0 20px;
+}
+
+.slider-group {
+    margin-bottom: 24px;
+}
+
+.slider-group label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+.slider-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.slider-row input[type="range"] {
+    flex: 1;
+}
+
+.slider-row span {
+    font-size: 14px;
+    min-width: 30px;
+    text-align: right;
+}
+
+#hex-value {
+    margin-top: 24px;
+    font-family: monospace;
+    font-size: 13px;
+    color: #555;
+}
