@@ -1,0 +1,85 @@
+:root{
+    --lightOrange: #dd6662;
+    --veryLightOrange: #f9c8c6;
+    --primary-color: #4CAF50;
+    --secondary-color: #f44336;
+    --background-color: #f0f0f0;
+    --text-color: #333;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#list-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    display: flex;
+    align-self: center;
+    width: 300px;
+    height: auto;
+}
+
+.closeBtn {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+}
+
+.class-container {
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    height: 12px;
+    align-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.h1 {
+    display: flex;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#taskInput {
+    width: 320px;
+    height: 20px;
+}
+
+#addBtn {
+    margin: 0 0 0 10px;
+    width: 30px;
+    height: 20px;
+}
+
+#stats {
+    margin-top: 10px;
+}
